@@ -729,14 +729,14 @@ textarea.modal-form__input {
   padding-bottom: 94px;
 }
 
-.members-list {
+.cardset {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   margin-left: -30px;
 }
 
-.members-item {
+.card {
   margin-left: 30px;
   -ms-flex-preferred-size: calc((100%-120px) / 4);
       flex-basis: calc((100%-120px) / 4);
