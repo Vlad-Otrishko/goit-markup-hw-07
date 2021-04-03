@@ -1,0 +1,13 @@
+.filter {
+  display: flex;
+  margin-bottom: 34px;
+  justify-content: center;
+}
+
+.filter__item {
+  display: block;
+  padding-bottom: 16px;
+  &:not(:last-child) {
+    margin-right: 8px;
+  }
+}

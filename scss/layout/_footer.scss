@@ -1,0 +1,35 @@
+.footer {
+  background-color: var(--background-dark-color);
+  padding-top: 60px;
+  padding-bottom: 60px;
+  &__grouper--left {
+    margin-right: 70px;
+  }
+  &__grouper--right {
+    margin-right: 93px;
+  }
+
+  .bidding {
+    display: block;
+    margin-bottom: 20px;
+    color: var(--general-light-font-color);
+    font-weight: var(--secondary-font-weight);
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+  }
+}
+.address {
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  &__link {
+    color: var(--general-light-font-color);
+  }
+}
+.contacts-wrapper {
+  &__item {
+    &:not(:last-child) {
+      margin-bottom: 9px;
+    }
+  }
+}

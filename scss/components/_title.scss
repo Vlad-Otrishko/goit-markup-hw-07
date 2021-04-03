@@ -1,0 +1,26 @@
+.title {
+  font-weight: var(--secondary-font-weight);
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--secondary-font-color);
+  .hero & {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.37;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--general-light-font-color);
+  }
+
+  .options & {
+    margin: 0 auto 50px;
+    min-width: 376px;
+  }
+  .members & {
+    margin: 0 auto 50px;
+    min-width: 264px;
+  }
+}
